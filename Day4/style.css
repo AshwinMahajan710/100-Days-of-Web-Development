@@ -1,0 +1,13 @@
+h3{
+    color: #76089e;
+    background-color: teal;
+}
+h1{
+    color: cadetblue;
+}
+h2{
+    color: rgb(234, 21, 222);
+}
+/* RGBA only have addition factor which controls its transparency.. */
+/* HSl stands for hue, saturation and lightness ... usually not used but can use ....*/
+/* Use Adobe Color to find current trending colors... */
