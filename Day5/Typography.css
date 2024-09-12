@@ -1,0 +1,21 @@
+/* Font- families ---> Look and feel of fonts  */
+h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    text-transform: capitalize; /*--> provides some functions*/
+    text-align: center;/*---> as per name , align everything to center*/
+    text-decoration: underline overline  /* better use to remove underline from anchor tag*/;
+}
+p{
+    line-height: 40px;/*---> the in between line height property*/
+    letter-spacing: 2px;/*---> space between the letters*/
+    word-spacing: 4px;/**---> space between the words*/
+}
+a{
+    text-decoration: None;/*---> remove underline*/   
+    cursor: pointer;/*Will change while hovering on the link--> There are different types get to know while project*/
+    font-weight: 700/*Boldness*/;
+
+}
+
+/* Copy different fonts easily from google fonts and use them in your project...*/

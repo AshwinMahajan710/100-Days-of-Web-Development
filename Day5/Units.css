@@ -1,0 +1,30 @@
+/* CSS Units */
+/* Typically we have two types  */
+/* 1. Absolute lengths --> fixed and exactly appers as that size...ex. px,cm,mm --> not use on screen because screen sizes varies so much --> use where output mediums are known*/
+/* 2. Relative lengths --> Specify length to another lenth property --> scale better between different rendering elements*/
+
+div{
+    width: 90%; /*px is the absolute unit --> if applied only valid to the div element*/
+    height: 100%;
+    background-color: red;
+}
+
+/* Let's learn about relative units... */
+
+/* 1. (%):- Relative to the parent element (tag)*/
+/* --> let's assume div is enclosed inside the section --> now until we provide property to section nothing will happen */
+section{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+/*2. (em):- Relative to the font-size of the element (2em means 2 times the size of the current font) */
+html{
+    font-size: 2em;
+} 
+p{
+    font-size: 1em;
+}
+
+/* 3. (rem):- Relative to the font-size of the root element */
+/* 4. (vw):- Stands for the viewport width which can be max 100 and min 0; ex 10vw --> same with vh
