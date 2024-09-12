@@ -1,0 +1,21 @@
+/* Everything in the web is madeup of a box */
+/* Content --> padding --> Border --> margin */
+div{
+    /* Long way */
+    /* border-width: 1px;
+    border-color: black;
+    border-style: solid; */
+    border: 2px dotted red; /*---> to each side*/
+    /* border-left: 4px darkblue solid; ---> Same to all sides
+    border-top: 4px thistle solid;
+    border-right: 4px red solid;
+    border-bottom: 4px khaki solid; */
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Padding ---> layer below border */
+/* same all declaration ans all as border */
+
+/* Margin ---> Layer above border */
+/* same as padding and border */
