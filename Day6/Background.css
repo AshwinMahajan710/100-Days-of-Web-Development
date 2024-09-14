@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+}
+
+div{
+    height: 100vh;
+    background-color: azure;
+    background-image: url("https://th.bing.com/th/id/OIP.b83V0J35TrYOl_uyCbnWlwHaNH?rs=1&pid=ImgDetMain"); /*fill image in parts until whole screen is not filled */
+    background-repeat: no-repeat;/*appears only single time */
+    background-size: cover;/*completely covers image*/
+    background-position: bottom ;/*have 4 usual direction properties....*/
+    background-attachment: scroll;/* image will not scroll with us..*/
+    
+}

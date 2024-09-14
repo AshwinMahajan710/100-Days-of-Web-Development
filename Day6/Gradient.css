@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+
+/* There are two types of gradiesnt linear gradient and radial gradient */
+/* 1 --> Linear gradient ---> work as linear property*/ 
+/* 2 --> radial gradient ---> same but work as a center property*/
+div{
+    height: 100vh;
+    /* choosing color and minimizing opacity --> additionally have poperties like to left and to right-->also can combine multiple colors*/
+    background-image: linear-gradient(to left,rgba(0, 0, 255, 0.299),rgba(0, 128, 0, 0.348)),url("https://th.bing.com/th/id/OIP.TjBNXWlIeS008Y7zpTr31gHaE8?rs=1&pid=ImgDetMain");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}

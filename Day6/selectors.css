@@ -1,0 +1,17 @@
+/* different types of selectors */
+/* 1. Class selector --> use '.' to access* --> we can provide multiple classes but not multiple ids/
+/* 2. Multiple class selectors --> can use using adding multiple words in the double inverted comas*/
+/* 3. id selector */
+/* 4. everything selector (*) */
+/* 5. div p --> select all paragraphs which are inside div --> same with div h*/
+/* ......and many more.. */
+
+.head1{
+    background-color: antiquewhite;
+}
+#one{
+    background-color: aqua;
+}
+div.text2{
+    background-color: red;
+}

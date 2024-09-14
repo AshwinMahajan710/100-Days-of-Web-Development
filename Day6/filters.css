@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+
+/* Css provodes multiple filter properties..... */
+/* 1. none */
+/* 2. blur :- blur effect in px */
+/* 3. greyscale,contrast,brightness :- In percentage (%) */
+/* 4. hue-rotation :- Actually color rotation not image */
+/* 5. Opacity */
+/* 6. saturation */
+
+/* Places to find cool gradients ----> gradient.io ---> webgradients.com*/
+div{
+    height: 100vh;
+    background-image: url("https://th.bing.com/th/id/OIP.TjBNXWlIeS008Y7zpTr31gHaE8?rs=1&pid=ImgDetMain");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    /* filter: blur(5px); */
+    /* filter: brightness(10%); */
+    /* filter: contrast(20%); */
+    /* filter: grayscale(100%); */
+    /* filter: hue-rotate(90deg); */
+}
