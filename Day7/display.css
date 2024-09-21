@@ -1,0 +1,16 @@
+/* Some of the elements of the html have display of block while some of them have display of inline */
+/* example :- div ---> Block      span ----> Inline */
+/*  As Inline elements are limited only for a line , width and height property have no effect on them */
+/* Inline block property help to assign width and height to inline block */
+/* for checking removal of particular element make it display:none` */
+span{
+    background-color: turquoise;
+    display: inline-block;
+    width : 200px;
+}
+div{
+    background-color: burlywood;
+    width: 200px;
+    height: 200px;
+    /* can also make div inline using display-inline property */
+}

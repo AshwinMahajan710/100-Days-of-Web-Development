@@ -1,0 +1,7 @@
+/* Setup required for fontawesome.com website ---> code in the html file*/
+/* keep in mind that it is a font ..... */
+.fa-brands{
+    color: blue;
+    font-size: 100px;
+    display: inline-block;
+}
