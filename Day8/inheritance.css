@@ -1,0 +1,17 @@
+/* Style applied to the parent element also gets applied to its decendent */
+/* example is the class structure */
+/* Only typography related properties are inherited ---> Layout can't be inherited(margin,pading,height,width,position)  */
+/* If we want to force inherit another properties we are going to use inherit keyword */
+
+.parent{
+    background-color: teal;
+    height: 200px;
+    width: 200px;
+}
+.child{
+    border: 2px solid;
+    border-color: red;
+    position: relative ;
+    left: 100px;
+    background: inherit;
+}
