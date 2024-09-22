@@ -1,0 +1,30 @@
+/* There are following position properties */
+/* Initially all are static */
+/* 1. absolute :- element positioned relative to its first position ansestor element  */
+/* 2. relative :- element positioned relative to its original position ---> ex left:20px;---> adds 20px to left position  */
+/* 3. fixed :- position relative to the browser window -----> no changes position while scrolling */
+/* 4. sticky :- similar to fixed but valid only for the container in which it is described */
+.container{
+    background-color: gray;
+    width: 90%;
+    height: 500px;
+}
+
+.d{
+    width: 100px;
+    height: 100px;
+}
+.one{
+    background-color: teal;
+    position: relative;
+    left: 20px; /* Relative property*/
+}
+.two{
+    background-color: green;
+    /* Absolute property :- green arranged on top of yellowgreen*/
+    position: absolute;
+    left: 200px
+}
+.three{
+    background-color: yellowgreen;
+}
