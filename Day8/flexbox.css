@@ -19,10 +19,25 @@ body{
     margin: 20px auto;
     /* flexbox here */
     display: flex;
-    flex-direction: column-reverse; /*can have : column , row, row-reverse*/
-    /* justify contnt property used to align items on main axis  */
-    justify-content: center;
+    flex-direction: row; /*can have : column , row, row-reverse*/
+    /* justify content property used to align items on main axis  */
+    /* justify-content: center; ---> align values at the center*/
     /* justify-content: space-around; ---> spaces out items on the equal distance ---> same with space-between but avoid corners*/
+    /* flex-wrap: nowrap; ---> property which helps to wrap the blocks*/
+    /* flex-wrap: wrap; ----> aligned in the line and next line format */
+
+    /* Align items property works on cross axis */
+    /* That means opposite direction of chosen axis at justify content */
+    align-items: center;
+    justify-content: center;
+
+    /* align-content property used to align content in the flexbox */
+    /* default property is strech */
+    /* only useful if height or width not described in the declaration */
+    align-content: stretch;
+
+    /*  we can also order our divs in the display using order property */
+
 }
 
 .child{
